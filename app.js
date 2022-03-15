@@ -1,7 +1,9 @@
+//! продумать проект, в котором можно применить это мини-приложение
+
 const board = document.querySelector('#board');
 const SQUARES_NUMBER = 500;
 
-const colors = ['#454B1B', '#023020', '#50C878', '#355E3B', '#C9CC3F', '#8A9A5B', '#808000', '#C4B454'];
+const colors = ['#454B1B', '#023020', '#50C878', '#355E3B', '#C9CC3F', '#8A9A5B', '#808000', '#C4B454'];  //! оттенки зелёного
 
 function getRandomColor() {
 	const randomIndex = Math.floor(Math.random() * colors.length);
